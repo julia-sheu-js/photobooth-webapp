@@ -176,6 +176,9 @@ body {
 .button-container {
   margin-top: 0;
 }
+.footer {
+  margin-top:3rem;
+}
 
 button {
   color: var(--main-text);

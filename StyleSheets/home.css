@@ -52,6 +52,8 @@ body {
   padding-top: 0;
   flex: 1;  /* Keep this */
   margin-bottom: 2rem;  /* Add this line */
+  flex: 1;  /* Pushes footer down */
+  padding-bottom: 3rem;  /* Add space before footer */
 }
 
 .photobooth-container {
@@ -177,10 +179,11 @@ body {
 /* button styling */
 .button-container {
   margin-top: 0;
+  margin-bottom: 3rem;  /* Add this - creates space after button */
 }
 .footer {
   margin-top: auto;
-  padding: 3rem 0 2rem 0;  /* Top padding creates the space */
+  padding: 2rem 0;
   text-align: center;
   color: var(--main-text);
   font-family: Castoro, serif;
